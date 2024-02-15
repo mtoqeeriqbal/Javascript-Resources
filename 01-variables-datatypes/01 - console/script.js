@@ -12,4 +12,33 @@ console.log(console);
 
 // In short, console is an object provided by the JavaScript environment, and console.log() is one of the methods available on this object for logging messages to the console.
 
+
+// Number
 console.log(100);
+
+// String
+console.log('Hello World!');
+
+// one thing one thing at the same time
+console.log(20, 'hello', true);
+
+// Console variable
+const x = 100;
+console.log(x);
+
+// Using VSCode Extension "JavaScript (ES6) code snippets" type clg and enter
+
+console.error('alert');
+console.warn('Warning')
+console.table({name: 'Brad', email: 'brad@gamil.com'});
+
+
+console.group('Group Name');
+console.log(100);
+console.log('Hello World!');
+console.log(20, 'hello', true);
+console.groupEnd();
+
+
+const style = 'padding: 10px; background-color: white; color: green;';
+console.log('%cHello World', style);
