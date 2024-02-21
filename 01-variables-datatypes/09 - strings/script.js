@@ -42,6 +42,9 @@ x = s.valueOf();
 
 x = s.split('  ');
 
-
-console.log(x);
+// Challenge Capitalized D in developer
+const myString = 'developer';
+x = myString.charAt(0).toUpperCase();
+y = myString.substring(1)
+console.log(x + y);
 
